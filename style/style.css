@@ -12,6 +12,10 @@ a {
 	color: #737373;
 }
 
+:focus {
+	outline: none;
+}
+
 /* Header */
 
 header {
@@ -101,7 +105,6 @@ header {
 	position: absolute;
 	left: 15px;
 	top: 5px;
-	outline: none;
 }
 
 #mic {
