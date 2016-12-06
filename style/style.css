@@ -7,6 +7,11 @@ body {
 	width: 100%;
 }
 
+a {
+	text-decoration: none;
+	color: #737373;
+}
+
 /* Header */
 
 header {
@@ -146,7 +151,7 @@ header {
 	padding-top: 30px;
 }
 
-span {
+.special span a {
 	color: blue;
 }
 
