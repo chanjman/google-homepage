@@ -87,7 +87,7 @@ header {
 }
 
 #searchbar {
-	width: 528px;
+	width: 583px;
 	height: 44px;
 	margin: 20px auto;
 	position: relative;
@@ -95,12 +95,14 @@ header {
 }
 
 #searchbar input {
-	width: 528px;
+	width: 583px;
 	height: 44px;
 	margin: auto;
 	border-radius: 0;
 	font-size: 16px;
 	display: block;
+	box-shadow: 3px 3px 10px #e2e2e2;
+	border: 1px solid #e6e6e6;
 }
 
 #mic {
@@ -120,7 +122,7 @@ header {
 }
 
 .lsb, .rsb {
-	width: 118px;
+	width: 125px;
 	height: 36px;
 	font-size: 13px;
 	font-weight: bold;
