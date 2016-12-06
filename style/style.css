@@ -130,6 +130,26 @@ header {
 	color: #222222;
 }
 
+.special {
+	width: 400px;
+	margin: auto;
+}
+
+.special img {
+	float:left;
+	padding-top: 15px;
+	left: -5px;
+}
+
+.special p, span {
+	font-size: 13px;
+	padding-top: 30px;
+}
+
+span {
+	color: blue;
+}
+
 /* Footer */
 
 .footer li {
