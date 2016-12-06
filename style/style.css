@@ -35,11 +35,7 @@ header {
 	display: inline;
 }
 
-.headernav li:first-child:hover {
-	text-decoration: underline;
-}
-
-.headernav li:nth-child(2):hover {
+.headernav span li:hover {
 	text-decoration: underline;
 }
 
@@ -148,7 +144,6 @@ header {
 .special img {
 	float:left;
 	padding-top: 15px;
-	left: -5px;
 }
 
 .special p, span {
