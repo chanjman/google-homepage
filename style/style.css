@@ -87,22 +87,25 @@ header {
 }
 
 #searchbar {
-	width: 583px;
+	width: 484px;
 	height: 44px;
 	margin: 20px auto;
 	position: relative;
+	display: block;
+	box-shadow: 3px 3px 10px #e2e2e2;
+	border: 1px solid #e6e6e6;
 
 }
 
 #searchbar input {
-	width: 583px;
-	height: 44px;
-	margin: auto;
-	border-radius: 0;
+	width: 403px;
+	height: 34px;
 	font-size: 16px;
-	display: block;
-	box-shadow: 3px 3px 10px #e2e2e2;
-	border: 1px solid #e6e6e6;
+	border: 0;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	outline: none;
 }
 
 #mic {
@@ -111,8 +114,8 @@ header {
 	vertical-align: middle;
 	position: absolute;
 	display: inline-block;
-	right: 5px;
-	top: 15px;
+	right: 10px;
+	top: 12px;
 }
 
 .searchbuttons {
