@@ -127,7 +127,10 @@ header {
 	border-radius: 0;
 	background-color: #f3f3f3;
 	color: #757585;
-	margin-left: 10px;
+}
+
+.rsb {
+	margin-left: 8px;
 }
 
 .lsb:hover, .rsb:hover {
